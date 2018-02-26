@@ -1,0 +1,22 @@
+{
+  "name": "webapps-unit7",
+  "version": "1.0.0",
+  "description": "A simple website for webapps class at CSM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanchampion/webapps-unit7.git"
+  },
+  "author": "Alan Champion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanchampion/webapps-unit7/issues"
+  },
+  "homepage": "https://github.com/alanchampion/webapps-unit7#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
