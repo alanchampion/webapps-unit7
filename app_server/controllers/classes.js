@@ -47,5 +47,17 @@ module.exports.classInfo = function(req, res) {
 
 /* GET 'Add review' page */
 module.exports.addAssignment = function(req, res) {
-  res.render('class-assignment-form', {title: 'Add review'});
+  res.render('class-assignment-form', {
+    title: 'Add assignment',
+    pageHeader: {
+      title: 'Add Assignment for CSCI-446S'
+    },
+    formInfo: {
+      name: 'Name',
+      due: 'Due',
+      points: 'Points',
+      status: 'Status'
+    },
+    statuses: ['Not started','In progress','Done','Submitted']
+  });
 };
