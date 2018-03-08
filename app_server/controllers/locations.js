@@ -1,12 +1,12 @@
 /* GET 'home' page */
 module.exports.homelist = function(req, res) {
   res.render('locations-list', {
-    title: 'Loc8r - find a place to work with wifi',
+    title: 'Mines Planner',
     pageHeader: {
-      title: 'Loc8r',
-      strapline: 'Find places to work with wifi near you!'
+      title: 'Mines Planner',
+      strapline: 'Making sure you get it done!'
     },
-    sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
+    sidebar: "Select a class to get started! You will be able to view and add assignments by class. Mines Planner will help you keep track of those pesky due dates and assignment plannings.",
     locations: [{
       name: 'Starcups',
       address: '125 High Street, Reading, RG6 1PS',
